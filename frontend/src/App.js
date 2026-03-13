@@ -86,7 +86,7 @@ function App() {
   // Initial load
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [fetchData]);
 
   // Auto-refresh every 10 minutes
   useEffect(() => {
